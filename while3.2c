@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    int b = 0;
+
+    printf("sonlarni kiriting :\n");
+
+    do {
+        scanf("%d", &a);
+        b += a; 
+    } while (a != 0); 
+
+    printf("sonlar yig'indisi: %d\n", b);
+
+    return 0;
+}

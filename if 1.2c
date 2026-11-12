@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+int a,b,c;
+    printf("1-sonni kriting);
+    scanf("")
+    printf("2-sonni kriting");
+    scanf("%d",&b);
+    printf("3-sonni kriting");
+    scanf("%d",&c;)
+    
+    if(a<b<c){
+    printf("eng katta son %d",c);
+    }else{
+        if(a<c<b){
+            printf("eng katta son %d",b);
+        }else{
+            if (c<b<a){
+                printf("eng katta son %d",a)
+            }
+            
+        }
+    }
+        }
+    return 0;
+}3

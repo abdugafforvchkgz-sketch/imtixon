@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+int n;
+    printf("son kriting: ");
+    scanf("%d",&n);
+    if(n>0){
+    printf("musbat son");
+        }else{
+        printf("musbat son emas");
+        }
+    return 0;
+}

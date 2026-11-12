@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main() {
+int n;
+    printf("hafta kunini krgizing: ");
+    scanf("%d",&n);
+    
+    switch(n){
+        case 1:
+        printf("du");
+        break;
+        case 2:
+        printf("se");
+        break;
+        case 3:
+        printf("chor");
+        break;
+        case 4:
+        printf("pa");
+        break;
+        case 5:
+        printf("ju");
+            break;
+            case 6:
+        printf("shan");
+        break;
+        
+        case 7:
+        printf("yak");
+        break;
+        default:
+        printf("notogri son ");
+    }
+        
+    
+    return 0;
+}
